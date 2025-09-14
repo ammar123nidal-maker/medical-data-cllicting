@@ -13,7 +13,7 @@ if "df" not in st.session_state:
         "degree of improvement"
     ])
 
-st.title("🧑‍⚕️ Patient Data Collection and Analysis")
+st.title("🥼📝 Patient Data Collection and Analysis")
 
 st.sidebar.header("➕ Add New Patient")
 
@@ -95,3 +95,4 @@ if not st.session_state.df.empty:
         file_name="patients_data.csv",
         mime="text/csv",
     )
+
